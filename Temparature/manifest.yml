@@ -1,0 +1,8 @@
+---
+applications:
+- name: TemparaturePCF
+  memory: 512M
+  host: TemparaturePCF-subdomain
+  domain: local.pcfdev.io
+  instances: 2
+  buildpack: https://github.com/prakashse7en/java-buildpack.git
